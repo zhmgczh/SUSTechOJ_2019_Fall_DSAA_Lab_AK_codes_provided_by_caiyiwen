@@ -2,8 +2,8 @@
 #include<cstdio>
 #include<cstring>
 using namespace std;
-char c_to_n[26],n_to_c[26],tmp[2],s[(int)1e5+10],p[(int)2e5+10],test[(int)2e5+10];
-int next[(int)2e5+10];
+char c_to_n[26],n_to_c[26],tmp[2],s[(int)1e6+10],p[(int)2e6+10],test[(int)2e6+10];
+int next[(int)2e6+10];
 void CalcNext(int pLen,char*p,int*next)
 {
 	next[0]=-1;
